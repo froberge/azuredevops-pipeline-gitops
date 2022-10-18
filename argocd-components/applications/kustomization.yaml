@@ -7,4 +7,3 @@ resources:
 - simple-dotnet-project.yaml
 - simple-dotnet-dev.yaml
 - simple-dotnet-prod.yaml
-- simple-dotnet-pipeline.yaml
