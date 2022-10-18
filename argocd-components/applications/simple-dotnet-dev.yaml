@@ -10,7 +10,7 @@ spec:
   source:
     path: app/overlays/dev
     repoURL: https://dev.azure.com/redhat-demo/simple-dotnet-service-deploy/_git/simple-dotnet-service-deploy
-    targetRevision: main
+    targetRevision: demo
   syncPolicy:
     automated:
       prune: true
