@@ -1,4 +1,4 @@
-# Countinuous Intégration using OpenShift GitOps
+# Continuous Integration using OpenShift GitOps
 
 We assume that you are in the folder that you have clone/fork the code. For instructions on how to install OpenShift Gitops you can refer to my [OpenShift GitOps Demo](https://github.com/froberge/ocp-gitops-demo) in this [section](https://github.com/froberge/ocp-gitops-demo/blob/main/docs/install-gitops-operator.md)
 
