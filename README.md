@@ -14,7 +14,7 @@ __NOTE__
 
 1. Use `Kustomize` to create the different resources needed to run the demo 
     ```
-    oc apply -k gitops-demo/setup/overlays/demo
+    oc apply -k setup/overlays/demo
     ```
 
     This will create all the elements required    
