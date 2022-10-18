@@ -1,0 +1,43 @@
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: admin-simple-dotnet-gitops
+  namespace: simple-dotnet-gitops
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+subjects:
+- kind: User
+  name: user1
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: admin-simple-dotnet-dev
+  namespace: simple-dotnet-dev
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+subjects:
+- kind: User
+  name: user1
+  apiGroup: rbac.authorization.k8s.io
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: admin-simple-dotnet-prod
+  namespace: simple-dotnet-prod
+roleRef:
+  kind: ClusterRole
+  name: admin
+  apiGroup: rbac.authorization.k8s.io
+subjects:
+- kind: User
+  name: user1
+  apiGroup: rbac.authorization.k8s.io
+# ...
